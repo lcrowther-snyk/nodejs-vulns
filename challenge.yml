@@ -3,10 +3,10 @@ category: ""
 value: 150
 type: standard
 extra:
-  connection_info: http://localhost:3001
+  connection_info: http://35.240.131.126/
 
 # Required sections
-name: "Sauerkraut"
+name: "file explorer"
 description: |
   What goes best on a hotdog?
 
@@ -22,7 +22,7 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-  - Python
+  - node.js
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
