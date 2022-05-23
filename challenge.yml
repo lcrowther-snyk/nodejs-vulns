@@ -1,0 +1,33 @@
+# Common for all challenges sections
+category: ""
+value: 150
+type: standard
+extra:
+  connection_info: http://localhost:3001
+
+# Required sections
+name: "Sauerkraut"
+description: |
+  What goes best on a hotdog?
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+  - SNYK{6854ecb17f23afdf2610f741dd07bd6099c616e4ac2a403eb14fa8689e1fb0af}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+  - Python
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
